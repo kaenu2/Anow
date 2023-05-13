@@ -192,6 +192,7 @@ body {
   line-height: 6.6%;
   letter-spacing: 0.2;
   color: #222222;
+  transition: all 0.3s ease 0s;
 }
 .menu-header__link:hover {
   color: #fd8558;
@@ -813,6 +814,10 @@ body {
 }
 .team__item {
   flex: 0 1 31.6%;
+  transition: all 0.3s ease 0s;
+}
+.team__item:hover {
+  transform: scale(1.05) translateY(-5px);
 }
 .team .team__button {
   text-align: center;
@@ -953,9 +958,11 @@ body {
   font-size: 15px;
   line-height: 140%;
   color: #FD8558;
+  transition: all 0.3s ease 0s;
 }
 .column-news__link:hover {
   text-decoration: underline;
+  text-underline-offset: 5px;
 }
 .column-news__link:not(:last-child) {
   margin: 0px 14px 0px 0px;
@@ -989,9 +996,11 @@ body {
   font-size: 15px;
   line-height: 140%;
   color: #FD8558;
+  transition: all 0.3s ease 0s;
 }
 .column-news__button:hover {
   text-decoration: underline;
+  text-underline-offset: 5px;
 }
 
 @media (max-width: 991px) {
@@ -1048,22 +1057,37 @@ body {
 }
 .form-addres__input-name {
   padding: 18px 40px 19px 40px;
+  border: 1px solid #fff;
+  transition: all 0.3s ease 0s;
 }
 .form-addres__input-name:focus {
-  border: 0.2px solid #FD8558;
+  border: 1px solid #FD8558;
+}
+.form-addres__input-name:hover {
+  border: 1px solid #FD8558;
 }
 .form-addres__input-email {
   padding: 18px 40px 19px 40px;
+  border: 1px solid #fff;
+  transition: all 0.3s ease 0s;
 }
 .form-addres__input-email:focus {
-  border: 0.2px solid #FD8558;
+  border: 1px solid #FD8558;
+}
+.form-addres__input-email:hover {
+  border: 1px solid #FD8558;
 }
 .form-addres__input-message {
   margin-bottom: 30px;
   padding: 20px 40px 87px 40px;
+  border: 1px solid #fff;
+  transition: all 0.3s ease 0s;
 }
 .form-addres__input-message:focus {
-  border: 0.2px solid #FD8558;
+  border: 1px solid #FD8558;
+}
+.form-addres__input-message:hover {
+  border: 1px solid #FD8558;
 }
 .form-addres__button {
   width: 192px;
@@ -1141,9 +1165,11 @@ body {
 }
 .footer__sub-footer a {
   color: #FFFFFF;
+  transition: all 0.3s ease 0s;
 }
 .footer__sub-footer a:hover {
   text-decoration: underline;
+  text-underline-offset: 5px;
 }
 
 .menu-footer {
@@ -1166,9 +1192,11 @@ body {
   font-size: 14px;
   line-height: 140%;
   color: #BABABA;
+  transition: all 0.3s ease 0s;
 }
 .menu-footer__link:hover {
   text-decoration: underline;
+  text-underline-offset: 5px;
 }
 
 @media (max-width: 1035px) {
